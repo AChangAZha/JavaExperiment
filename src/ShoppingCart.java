@@ -1,13 +1,14 @@
 /*
  * @Author: AChangAZha
  * @Date: 2021-12-02 11:20:08
- * @LastEditTime: 2021-12-02 21:33:17
+ * @LastEditTime: 2021-12-04 20:12:08
  * @LastEditors: AChangAZha
  */
 
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Scanner;
+import java.util.Set;
 
 public class ShoppingCart {
     public static double getSum(HashSet<Item> items) {
@@ -20,7 +21,7 @@ public class ShoppingCart {
     }
 
     public static void main(String[] args) {
-        HashSet<Item> items = new HashSet<Item>();
+        Set<Item> items = new HashSet<Item>();
         Scanner input = new Scanner(System.in);
         try {
             for (int i = 0; i < 5; i++) {
@@ -39,6 +40,6 @@ public class ShoppingCart {
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
-        System.out.println("合计：" + getSum(items) + "元");
+        System.out.println("合计：" + getSum((HashSet<Item>) items) + "元");
     }
 }
