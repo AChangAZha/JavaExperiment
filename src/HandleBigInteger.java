@@ -1,3 +1,10 @@
+
+/*
+ * @Author: AChangAZha
+ * @Date: 2021-11-25 20:43:56
+ * @LastEditTime: 2022-03-05 15:31:04
+ * @LastEditors: AChangAZha
+ */
 import java.math.*;
 
 public class HandleBigInteger {
@@ -23,5 +30,6 @@ public class HandleBigInteger {
         }
         System.out.println("");
         System.out.println(m.toString() + "一共有" + COUNT.toString() + "个因子");
+        (((((((((((((((((((((((())))))))))))))))))))))));
     }
 }
